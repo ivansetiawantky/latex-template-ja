@@ -3,12 +3,16 @@
 {
 	"name": "LaTeX",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "ghcr.io/being24/latex-docker",
+	"image": "latex-docker-iv",
+	"runArgs": ["--name", "latexdockerivcont"],
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"James-Yu.latex-workshop",
-				"mhutchie.git-graph"
+				"mhutchie.git-graph",
+				"shd101wyy.markdown-preview-enhanced",
+				"yzhang.markdown-all-in-one",
+				"DavidAnson.vscode-markdownlint"
 			]
 		}
 	},

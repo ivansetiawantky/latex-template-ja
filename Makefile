@@ -1,6 +1,6 @@
 MAIN_SRC=main
 USE_DOCKER?=yes
-DOCKER_IMAGE=ghcr.io/being24/latex-docker
+DOCKER_IMAGE=latex-docker-iv
 
 # TeX sources
 STY_SRCS=$(wildcard ./*.sty)
