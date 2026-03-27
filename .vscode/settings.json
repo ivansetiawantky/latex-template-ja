@@ -74,6 +74,11 @@
         "editor.formatOnSave": false,
         "editor.defaultFormatter": "James-Yu.latex-workshop",
         "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?．。，、（）「」［］｛｝《》てにをはがのともへでや",
+        "editor.folding": true,
+        "editor.showFoldingControls": "always",
+        "editor.wordWrap": "on",
+        "files.trimTrailingWhitespace": true,
+        "files.trimFinalNewlines": true,
     },
     "markdown-preview-enhanced.latexEngine": "lualatex",
     "latex-workshop.format.fixQuotes.enabled": true,
@@ -82,4 +87,5 @@
     "latex-workshop.intellisense.update.aggressive.enabled": true,
     "latex-workshop.linting.chktex.enabled": true,
     "latex-workshop.linting.run": "onType",
+    "latex-workshop.intellisense.includegraphics.preview.enabled": true,
 }
