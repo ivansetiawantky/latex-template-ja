@@ -18,7 +18,7 @@
     ],
     "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.view.pdf.viewer": "tab",
-    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.autoClean.run": "onFailed",
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
         "*.bbl",
@@ -53,19 +53,19 @@
         //"*/*.log"
     ],
     "latex-workshop.formatting.latex": "latexindent",
-    "latex-workshop.formatting.latexindent.path": "sh",
-    "latex-workshop.formatting.latexindent.args": [
-        "/workdir/bin/linter.sh",
-    ],
-    // "latex-workshop.formatting.latexindent.path": "latexindent",
+    // "latex-workshop.formatting.latexindent.path": "sh",
     // "latex-workshop.formatting.latexindent.args": [
-    //     "-c=/workdir/backups",
-    //     "-l",
-    //     "-w",
-    //     "-s",
-    //     "-r",
-    //     "%DOC%"
+    //     "/workdir/bin/linter.sh",
     // ],
+    "latex-workshop.formatting.latexindent.path": "latexindent",
+    "latex-workshop.formatting.latexindent.args": [
+        "-c=/workdir/backups",
+        "-l",
+        // "-w",
+        // "-s",
+        "-r",
+        "%DOC%"
+    ],
     "latex-workshop.formatting.tex-fmt.path": "tex-fmt",
     "latex-workshop.formatting.tex-fmt.args": [
         "-n"
