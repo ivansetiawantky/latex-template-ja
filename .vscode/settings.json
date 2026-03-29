@@ -59,8 +59,11 @@
     // ],
     "latex-workshop.formatting.latexindent.path": "latexindent",
     "latex-workshop.formatting.latexindent.args": [
-        "-c=/workdir/backups",
+        // "-c=/workdir/backups/",
+        "-c",
+        "%DIR%/",
         "-l",
+        "/workdir/localSettings.yaml",
         // "-w",
         // "-s",
         "-r",
