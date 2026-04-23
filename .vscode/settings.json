@@ -85,7 +85,7 @@
     },
     "markdown-preview-enhanced.latexEngine": "lualatex",
     "latex-workshop.format.fixQuotes.enabled": true,
-    "latex-workshop.format.fixMath.enabled": true,
+    "latex-workshop.format.fixMath.enabled": false,
     "latex-workshop.check.duplicatedLabels.enabled": true,
     "latex-workshop.intellisense.update.aggressive.enabled": true,
     "latex-workshop.linting.chktex.enabled": true,
